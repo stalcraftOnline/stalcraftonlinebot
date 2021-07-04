@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 from selenium import webdriver
 
-web = webdriver.Firefox(executable_path='geckodriver.exe')
+web = webdriver.Firefox('./')
 
 web.get('https://stalcraft.net')
 #========================================
